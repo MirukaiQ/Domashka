@@ -11,6 +11,8 @@ li {
   background: #47986D;
   border: 1px solid;
   position: relative;
+  min-width: 120px;
+  max-width: 120px;
 }
 
 .link {
@@ -18,6 +20,9 @@ li {
   padding: 15px 35px;
   color:white;
   text-decoration: none;
+}
+.more-pad {
+  padding: 15px 20px;
 }
 
 .nav-list-item:hover {
@@ -57,7 +62,7 @@ li {
   padding-left: 18px;
 }
 .sub-nav-ll-items {
-  left: 110px;
+  left: 120px;
   bottom: 50px;
   
 }
